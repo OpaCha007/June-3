@@ -1,0 +1,10 @@
+# Define the total population of the planet
+total_population = 7.9e9  # 7.9 billion
+
+# Define the percentage of vegetarians in the world
+vegetarian_percentage = 8  # 8%
+
+# Calculate the number of vegetarians on the planet
+vegetarian_count = (vegetarian_percentage / 100) * total_population
+
+print(f"Estimated number of vegetarians on the planet: {vegetarian_count:.0f}")
